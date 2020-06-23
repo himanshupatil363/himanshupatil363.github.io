@@ -1,24 +1,27 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	color: black;
 	box-sizing: border-box;
 	font-family: 'Mukta', sans-serif;
 }
-
+html{
+	background-color: #DECFD4;
+}
 ul {
 	margin: 0px;
 	padding: 0px;
 }
 
 .logo {
-	letter-spacing: 6px;
+	
+	letter-spacing: 9px;
+	color: white;
 	font-weight: bolder;
 	font-size: xx-large;
 }
 
 .logo::first-letter {
-	color: white;
+	color: #5e734a;
 	font-size: larger;
 }
 
@@ -37,11 +40,11 @@ nav {
 }
 
 nav.scrolled {
-	background-color: rgb(134, 214, 127);
+	background-color: #DECFD4;
 }
 
 nav.scrolled>.na>li:hover {
-	background-color: rgb(210, 255, 200);
+	background-color: #bf7e58;
 }
 
 .na {
@@ -72,7 +75,7 @@ nav.scrolled>.na>li:hover {
 }
 
 .na li:hover {
-	background-color: rgb(134, 214, 127);
+	background-color: #DECFD4;
 }
 
 .burger {
@@ -98,7 +101,7 @@ nav.scrolled>.na>li:hover {
 		right: 0px;
 		height: 130vh;
 		top: 8vh;
-		background-color: rgb(134, 214, 127);
+		background-color: #DECFD4;
 		flex-direction: column;
 		align-items: center;
 		transform: translateX(100%);
@@ -121,7 +124,7 @@ nav.scrolled>.na>li:hover {
 		align-items: center;
 		min-height: 8vh;
 		padding-left: 3vh;
-		background-color:  rgb(134, 214, 127);
+		background-color:  #DECFD4;
 	}
 
 	.na-active {
@@ -140,7 +143,7 @@ nav.scrolled>.na>li:hover {
 	100% {
 		opacity: 1;
 		transform: translateX(0px);
-		background-color: rgb(134, 214, 127);
+		background-color: #DECFD4;
 	}
 }
 
@@ -159,10 +162,17 @@ body, html {
   height: 100%;
 }
 .parallax {
-  background-image: url("back.jpg");
+  background-image: url("finalis.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.text-white{
+	color: #C8BEB4 !important;
+}
+.parallax>p{
+	color: white;
+	font-family: 'Varela Round', sans-serif;
 }

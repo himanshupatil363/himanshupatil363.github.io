@@ -1,3 +1,4 @@
+
 function slide() {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".na");
@@ -16,7 +17,7 @@ function slide() {
 }
 slide();
 $(window).scroll(function(){
-    $('nav').toggleClass('scrolled',$(this).scrollTop()> 600);
+    $('nav').toggleClass('scrolled',$(this).scrollTop()> 700);
 });
 
 
